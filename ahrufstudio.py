@@ -1,7 +1,7 @@
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'your_api_key_here'
 
 def refine_prompt_with_gpt(user_prompt):
     refined_prompt = f"Refine this prompt for DALL-E: '{user_prompt}'"
